@@ -262,10 +262,10 @@
 <div class="carousel-inner">
 <div class="item active">	
 <div class="testimonials col-md-10">
-<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
-<h3>
-Review 1 - <small>Anonymous</small>
-</h3>
+	<i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i>
+<p>
+No Reviews - <small></small>
+</p>
 
 </div>
 
@@ -273,10 +273,10 @@ Review 1 - <small>Anonymous</small>
 </div>
 <div class="item">	
 <div class="testimonials col-md-10">
-<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
-<h3>
-Review 2 - <small>Anons</small>
-</h3>
+<i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i>
+<p>
+No Reviews - <small></small>
+</p>
 
 </div>
 
@@ -284,10 +284,10 @@ Review 2 - <small>Anons</small>
 </div>
 <div class="item">
 <div class="testimonials col-md-10">
-<i class="fa fa-star" aria-hidden="true"></i>
-<h3>
-Review 3<small>Anon</small>
-</h3>
+<i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i>
+<p>
+No Reviews -<small>Anon</small>
+</p>
 
 </div>
 
@@ -302,6 +302,49 @@ Review 3<small>Anon</small>
 </div>
 </div>
 </div><!--end of container-->
+	
+	<h4><b>Submit A Review</b></h4>
+		    <form method="POST" action="https://formspree.io/thelegithabibi@gmail.com">
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                
+                              <input type="text" class="form-control" placeholder="Display Name" name="Review Name">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                
+                                <input type="steamurl" class="form-control" placeholder="Email" name="Email">
+                                <p class="help-block text-danger"></p>
+				    <p>Your email is never displayed. This is to prevent bots & spam</p>
+                            </div>
+                        </div>
+			    <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                
+                                <textarea rows="5" class="form-control" placeholder="Rating (1-5)" name="Rating"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                
+                                <textarea rows="5" class="form-control" placeholder="Review" name="Review"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+			    <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" value="send" class="btn btn-success btn-wide">Send</button>
+                            </div>
+                        </div>
+                    </form>
+		    
+		    
            </div>
 	    </div></section>
 		    
