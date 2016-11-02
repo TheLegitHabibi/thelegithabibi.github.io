@@ -121,7 +121,7 @@
 <div class='wrapper'>
    <div class='package'>
     <div class='name'>BRONZE</div>
-    <div class='price'>€1.99</div>
+    <div class='price'>$1.99</div>
     <div class='trial'>100% Success Rate</div>
     <hr>
     <ul>
@@ -197,7 +197,7 @@
   </div>
   <div class='package'>
     <div class='name'>PLATINUM</div>
-    <div class='price'>€19.99</div>
+    <div class='price'>$19.99</div>
     <div class='trial'>100% Success Rate</div>
     <hr>
     <ul>
@@ -267,9 +267,8 @@
 <div class="testimonials col-md-10">
 	<i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i>
 <p>
-No Reviews - <small></small>
+Highly recommended!! TheLegitHabibi have made multiple applications for me in LSRP and almost always got in the first attempt. - <small>Anonymous</small>
 </p>
-
 </div>
 
 <div class="clearfix"></div>
@@ -278,26 +277,39 @@ No Reviews - <small></small>
 <div class="testimonials col-md-10">
 <i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i>
 <p>
-No Reviews - <small></small>
+Amazing, Habibi has outstanding English abilities and your application for any unit will be accepted for sure. Such talent, wow, even becoming a doctor in real life. Tell me how many LSRP players have aspirations other than living in moms basement? - <small>DefinitelyNotAPredatoryBird</small>
 </p>
 
 </div>
-
+	
 <div class="clearfix"></div>
 </div>
-<div class="item">
+<div class="item">	
+<div class="testimonials col-md-10">
+<i style="color:##000000" class="fa fa-star" aria-hidden="true"></i>
+<p>
+ Do you really think you'll get away with this? - <small>Mmartin</small>
+</p>
+</div>
+
+	<div class="clearfix"></div>
+</div>
+<div class="item">	
 <div class="testimonials col-md-10">
 <i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i><i style="color:##000000" class="fa fa-star" aria-hidden="true"></i>
 <p>
-No Reviews -<small>Anon</small>
+ Many gord this one helbed me join the red county server! - <small>Usertree</small>
 </p>
-
 </div>
+
 
 <div class="clearfix"></div>
 </div>
 </div>
 </div>
+	<br>
+	<br>
+	<br>
 <div class="pull-right">
 <a class="left" href="#testimonials-rotate" data-slide="prev"><i class="fa fa-arrow-left"></i></a>
 <a class="right" href="#testimonials-rotate" data-slide="next"><i class="fa fa-arrow-right"></i></a><div class="clearfix"></div>	
@@ -305,6 +317,8 @@ No Reviews -<small>Anon</small>
 </div>
 </div>
 </div><!--end of container-->
+		    
+		    
 	<div class="col-lg-8 col-lg-offset-2">
 		    <div class="row control-group">
 		    <h5><b>Submit A Review</b></h5>
@@ -312,21 +326,22 @@ No Reviews -<small>Anon</small>
 		   
 			   <form method="POST" action="https://formspree.io/thelegithabibi@gmail.com">
                         <div class="row control-group">
+				<input type="hidden" name="_subject" value="Someone Submitted A Review" />
                               <input type="text" class="form-control" placeholder="Display Name" name="Review Name">
                                 <p class="help-block text-danger"></p>
                         </div>
-                        <div class="row control-group">
-                            
-<input type="steamurl" class="form-control" placeholder="Email. Your email is NEVER displayed." name="Email">
-                                <p class="help-block text-danger"></p>
-                            
-                        </div>
 			    <div class="row control-group">
+				    <input type="hidden" name="_next" value="http://thelegithabibi.com/reviewthanks.html" />
                             <input type="text" class="form-control" placeholder="Stars (1-5)" name="Stars">
                                 <p class="help-block text-danger"></p>
                             
                         </div>
+				   <div class="row control-group">
+				   <input type="email" class="form-control" placeholder="Email (It is never displayed!)" name="_replyto">
+					   <p class="help-block text-danger"></p>
+				   </div>
                         <div class="row control-group">
+				
         <textarea rows="5" class="form-control" placeholder="Review" name="Review"></textarea>
                                 <p class="help-block text-danger"></p>
                              </div>
@@ -416,13 +431,20 @@ No Reviews -<small>Anon</small>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
-				    <input type="hidden" name="_subject" value="Review" />
+				    <input type="hidden" name="_subject" value="Someone contacted you" />
 				<input type="text" class="form-control" placeholder="Your name" name="Name">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
-				<input type="hidden" name="_next" value="https://thelegithabibi.com/reivewthanks" />
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+				    <input type="hidden" name="_next" value="http://thelegithabibi.com/contactthanks.html" />
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Email Address" name="_replyto">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Message</label>
                                 <textarea rows="5" class="form-control" placeholder="Message" name="Message"></textarea>
