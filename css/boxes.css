@@ -237,6 +237,8 @@ h6 {
 table.center {
     margin-left: 485px;
 }
-.testimonials p{
-margin-top:25px;
+.peopleCarouselImg p {
+  width: auto;
+  height: 225px;
+  max-height: 225px;
 }
