@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Flat UI Free 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+	<link href="css/boxes.css" rel="stylesheet">
+	<link href="css/flat-ui.css" rel="stylesheet">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="../dist/js/vendor/html5shiv.js"></script>
+      <script src="../dist/js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+	    <center><h1>Submit a Review!</h1></center>
+      <h3></h3>
+	    <br>
+	    <br>
+      <h4></h4>
+      </div>
+    <!-- /.container -->
+<section id="contact">
+        <div class="container">
+            <div class="row">
+                
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    
+                    <form method="POST" action="https://formspree.io/thelegithabibi@gmail.com">
+                        <div class="row control-group">
+				<input type="hidden" name="_subject" value="Someone Submitted A Review" />
+                              <input type="text" class="form-control" placeholder="Display Name" name="Review Name">
+                                <p class="help-block text-danger"></p>
+                        </div>
+			    <div class="row control-group">
+				    <input type="hidden" name="_next" value="http://thelegithabibi.com/reviewthanks.html" />
+                            <input type="text" class="form-control" placeholder="Stars (1-5)" name="Stars">
+                                <p class="help-block text-danger"></p>
+                            
+                        </div>
+				   <div class="row control-group">
+				   <input type="email" class="form-control" placeholder="Email (It is never displayed!)" name="_replyto">
+					   <p class="help-block text-danger"></p>
+				   </div>
+                        <div class="row control-group">
+				
+        <textarea rows="5" class="form-control" placeholder="Review" name="Review"></textarea>
+                                <p class="help-block text-danger"></p>
+                             </div>
+                        <div class="row control-group">
+                            
+                                <button type="submit" value="send" class="btn btn-primary btn-wide">Send</button>
+                            
+                        </div>
+                    </form>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+	
+                           
+    
+    
+    
+
+    <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
+    <script src="../dist/js/vendor/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../dist/js/vendor/video.js"></script>
+    <script src="../dist/js/flat-ui.min.js"></script>
+  </body>
+</html>
