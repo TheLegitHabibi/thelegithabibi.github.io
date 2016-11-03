@@ -23,8 +23,7 @@ a.active {
 }
 a.whitelink,
 a.whitelink:focus,
-a.whitelink:active,
-a.whitelink.active {
+a.whitelink:active {
   color: #0f7864;
   outline: none;
 }
