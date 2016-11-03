@@ -21,16 +21,6 @@ a.active {
   color: #18BC9C;
   outline: none;
 }
-a.whitelink,
-a.whitelink:focus,
-a.whitelink:active {
-  color: #0f7864;
-  outline: none;
-}
-a.whitelink:hover {
-  color: #128f76;
-  outline:none;
-}
 h1,
 h2,
 h3,
